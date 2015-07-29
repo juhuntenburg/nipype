@@ -620,7 +620,7 @@ class Volreg(AFNICommand):
 
 
 class MergeInputSpec(AFNICommandInputSpec):
-    in_files = InputMultiPath(
+    in_file = InputMultiPath(
         File(desc='input file to 3dmerge', exists=True),
         argstr='%s',
         position=-1,
