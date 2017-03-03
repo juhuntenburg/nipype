@@ -1,0 +1,27 @@
+This is a short note on how to install cbstools as of 3 Mar 2017.
+
+1)  Get the latest release from:
+        https://www.nitrc.org/projects/cbs-tools/
+    Specifically, download the python version of the release.
+    You should end up with a .tar.gz archive file.
+
+2)  Unpack the archive into some convenient folder.
+
+3)  Install jcc into your Python environment. See:
+        https://pypi.python.org/pypi/JCC/
+Note:   jcc has not been ported to python 3 yet.
+        This effectively this restricts cbstools compatibility
+        to python 2.7 (or earlier).
+
+4)  Select a directory to install cbstools into and add it to your PYTHONPATH.
+
+5)  Run the following command:
+        python -m jcc --jar cbstools.jar --include cbstools-lib.jar --include commons-math3-3.5.jar --include Jama-mipav.jar --python cbstoolsjcc --version 3.1.0.1 --build --maxheap 5000M --install --install-dir <install-directory>
+    Replace <install-directory> with your install directory from step 4).
+
+6)  You can access cbstools from inside your installation directory. The relevant folder is
+        cbstoolsjcc
+    You may as well copy this folder into a different convenient folder and use it from there.
+
+Congrats!
+
