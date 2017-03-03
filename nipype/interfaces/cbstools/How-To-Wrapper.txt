@@ -1,1 +1,19 @@
 # This will be the how to wrapper guide for the cbs tools
+
+To begin with, it would be quite a waste of time for you to repeat our mistakes.
+Therefore, we tell you some things we tried that (at the time we tried them)
+did not work for us. Here they are:
+
+WHAT DOES NOT WORK:
+0) installing cbs tools (jcc python version) does not work via easy-install
+    (it is not a proper package one can simply install)
+    instead: copy the cbs tools into a custom folder and then use it
+1)
+
+
+
+
+Now the good stuff: Here are the things we think work nicely for writing a new
+cbs tools wrapper. Have fun!
+
+WHAT WORKS:
